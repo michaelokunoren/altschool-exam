@@ -1,0 +1,29 @@
+.home-profile {
+  text-align: center;
+}
+
+.home-content {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+/* Profile.js */
+.user-box {
+    max-width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+.user-photo img{
+    margin: 10px;
+    border-radius: 50%;
+}
+.user-about {
+    margin: 10px;
+}

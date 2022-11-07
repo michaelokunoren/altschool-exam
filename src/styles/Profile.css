@@ -1,0 +1,47 @@
+.repo-box {
+    max-width: 300px;
+    min-width: 300px;
+    min-height: 200px;
+    min-height: 200px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+.repo-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.date {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.public {
+    display: inline-block;
+    background-color: green;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 20px;
+    margin:0 0 20px 0;
+}
+.private {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 20px;
+    margin:0 0 20px 0;
+}
+.repo-btn {
+    background-color: #6d81fe;
+    color: white;
+    padding: 6px 25px;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+.repo-btn:hover {
+    background-color: #334094;
+}
